@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wrapper1{
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	overflow:hidden;
+	}
+.wrapper2{
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	overflow:hidden;
+	}
+
+	
+.slider-wrapper{
+	position:relative;
+	margin-left:0px;
+	width:50000px;
+	height:500px;
+	background:#00F;
+	
+	}	
+	
+.slider-wrapper div{
+	float:left;
+	}
+
+span.left{
+	position:absolute;
+	top:200px;
+	float:left;
+	height:50px;
+	height:50px;
+	opacity:0;
+	}
+span.right{
+	position:absolute;
+	top:200px;
+	left:900px;
+	float:right;
+	height:50px;
+	width:50px;
+	opacity:0;
+	
+	}
+span.right:hover {
+	opacity:0.5;
+	}
+span.left:hover {
+	opacity:0.5;
+	}
+.indexbar{
+	position:absolute;
+	bottom:0px;
+	}
+/*.indexbar div:hover{cursor:pointer;}*/
